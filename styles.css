@@ -1,0 +1,231 @@
+body {
+    background-image: url("images/flag-of-bulgaria.png"), url("images/flag_map_of_bulgaria.svg.png");
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(220,220,220, 0.3);
+    height: 120px;
+    top:20px;
+    padding: 20px;
+}
+
+.left-head {
+    /*border: 1px solid;*/
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    left:80px;
+    top:30px;
+    text-align: center;
+}
+
+.left-head img {
+    min-width: 85%;
+    height: 85%;;
+}
+
+.right-head {
+    /*border: 1px solid;*/
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    left:850px;
+    top:30px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Cutive Mono', monospace;
+    vertical-align: middle;
+    text-shadow: 1px 1px 3px red;
+}
+
+.centered {
+    position: relative;
+    top:180px;
+    left: 500px;
+}
+
+.centered h2 {
+    font-weight: 100;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+h2::first-letter {
+    font-size: 180%;
+    font-style: italic;
+    text-shadow: 1px 2px 2px maroon;
+}
+
+.bga {
+    text-transform: uppercase;
+}
+
+.special {
+    font-weight: bold;
+    font-size: 150%;
+    font-style: italic;
+    text-shadow: 2px 2px 3px green ;
+}
+
+.section-left {
+    width: 400px;
+    min-height: 300px;
+    border: 3px groove;
+    position: absolute;
+    top:300px;
+    left:150px;
+}
+
+.item1{
+    list-style-image: url("images/botev - Copy.jpg");
+    list-style-position: inside;
+}
+
+.item2{
+    list-style-image: url("images/totleben.jpg");
+    list-style-position: inside;
+}
+.item3 {
+    list-style-image: url("images/kiselov.jpg");
+    list-style-position: inside;
+}
+
+.item4 {
+     list-style-image: url("images/benderev.jpg");
+     list-style-position: inside;
+ }
+
+.item5 {
+    list-style-image: url("images/stoletov.jpg");
+    list-style-position: inside;
+}
+
+.item6 {
+    list-style-image: url("images/mesembria.jpg");
+    list-style-position: inside;
+}
+
+.item7 {
+    list-style-image: url("images/gen_vazov.jpg");
+    list-style-position: inside;
+}
+
+/*.item8 {
+    list-style-image: url("images/small-kavala.jpg");
+    list-style-position: inside;
+}*/
+
+.item9 {
+    list-style-image: url("images/Georgi_Vazov.jpg");
+    list-style-position: inside;
+}
+.first-list li {
+    padding: 14px 0;
+}
+
+.first-list li > a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size:20px;
+    text-shadow: 2px 1px gray ;
+    padding: 22px;
+}
+
+.first-list li > a:hover {
+    background-color: transparent;
+    text-decoration: overline;
+}
+
+table {
+    width: 700px;
+    min-height: 300px;
+    border: 3px groove;
+    border-radius: 15px 40px 15px 50px;
+    position: absolute;
+    top:340px;
+    left:650px;
+}
+
+table td {
+    padding:10px 10px;
+}
+
+table img {
+    border: 1px solid;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+table img:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+
+#historical-table {
+    caption-side: bottom;
+}
+
+table p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    text-shadow: 1px 2px 1px #00976E;
+    letter-spacing: 2px;
+}
+
+
+details{
+    position: absolute;
+    left: 1150px;
+    top: 960px;
+    font-family: Verdana;
+    font-size: 14px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+svg {
+    margin-top: 940px;
+
+}
+
+#TextElement {
+    font-family: Verdana;
+    font-size:16px;
+}
+
+.bottom-list {
+    margin-left: 520px;
+    min-width: 800px;
+}
+
+.bottom-list li {
+    display: inline;
+    background-color: lightgray;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 10px 24px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+.bottom-list  li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.bottom-list  li > a:hover {
+    border-bottom: 2px solid red;
+}
